@@ -1,0 +1,33 @@
+header.site-header {
+    -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 0px -2px 2px 0px rgba(211,211,230,0); 
+    box-shadow: 2px 5px 16px 0px #0B325E, 0px -2px 2px 0px rgba(211,211,230,0);
+}
+
+.menu-menu-1-container,
+.menu-footer-menu-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu .menu-item {
+    padding: 5px 10px;
+}
+
+
+.menu .menu-item a {
+    color: #035689;
+    font-family: SourceSansPro;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu .current-menu-item a {
+    font-family: SourceSansProBold;
+}

@@ -11,24 +11,29 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'infocovid' ) ); ?>">
+	<footer id="colophon" class="site-footer py-2 px-5 ">
+		<div class="site-info d-flex justify-content-between align-items-center">
+			<div class="site-branding">
 				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'infocovid' ), 'WordPress' );
+				the_custom_logo();
 				?>
-			</a>
-			<span class="sep"> | </span>
+			</div><!-- .site-branding -->
+
+			<nav id="footer-navigation" class="footer-navigation">
 				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'infocovid' ), 'infocovid', '<a href="http://underscores.me/">Underscores.me</a>' );
+				wp_nav_menu(
+					array(
+						'theme_location' => 'footer-menu',
+						'menu_id'        => 'footer-menu',
+					)
+				);
 				?>
+			</nav><!-- #site-navigation -->
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

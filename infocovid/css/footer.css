@@ -1,0 +1,4 @@
+footer.site-footer {
+    -webkit-box-shadow: 2px 5px 16px 0px #0B325E, -50px -50px 0px -30px rgba(11,50,94,0); 
+    box-shadow: 2px 5px 16px 0px #0B325E, -50px -50px 0px -30px rgba(11,50,94,0);
+}
