@@ -13,3 +13,17 @@ h2 {
     font-size: 1.5rem;
     text-decoration: none;
 }
+
+.posted-on {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.nav-links a {
+    color: #035689;
+    font-size: 18px;
+}
+
+.page .entry-content p.has-text-color {
+    border-radius: 8px;
+}

@@ -27,7 +27,7 @@ if ( ! function_exists( 'infocovid_posted_on' ) ) :
 
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
-			esc_html_x( 'Posted on %s', 'post date', 'infocovid' ),
+			esc_html_x( 'Publié le %s ', 'post date', 'infocovid' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
