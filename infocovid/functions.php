@@ -147,7 +147,7 @@ function infocovid_scripts() {
 	wp_enqueue_style( 'layout', get_template_directory_uri() . '/css/layout.css' );
 	wp_enqueue_style( 'typography', get_template_directory_uri() . '/css/typography.css' );
 	wp_enqueue_style( 'button', get_template_directory_uri() . '/css/button.css' );
-
+	wp_enqueue_style( 'form', get_template_directory_uri() . '/css/form.css' );
 
 	wp_style_add_data( 'infocovid-style', 'rtl', 'replace' );
 

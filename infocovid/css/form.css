@@ -1,0 +1,19 @@
+.wpforms-field-container input,
+.wpforms-field-container textarea {
+    border-color: #0356895f!important;
+    border-radius: 8px!important;
+}
+
+.wpforms-submit-container .wpforms-submit {
+    font-family: SourceSansProBold;
+    color: #fff!important;
+    background-color: #035689!important;
+    border-radius: 8px!important;
+    border-color: #035689!important;
+}
+
+.wpforms-confirmation-container-full {
+    background-color: #03568924!important;
+    color: #035689!important;
+    border-color:#03568924!important;
+}
