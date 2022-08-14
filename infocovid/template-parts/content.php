@@ -29,12 +29,13 @@
 	</header><!-- .entry-header -->
 
 	<div class="row my-2">
-		<div class="col-md-4">
-			<?php infocovid_post_thumbnail(); ?>
-		</div>
-		
+		<?php if(has_post_thumbnail(get_the_ID())): ?>
+			<div class="col-md-4">
+				<?php infocovid_post_thumbnail(); ?>
+			</div>
+		<?php endif; ?>
 
-		<div class="entry-content col-md-8">
+		<div class="entry-content col">
 			<?php
 			the_content(
 				sprintf(
