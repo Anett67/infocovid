@@ -2,3 +2,25 @@ footer.site-footer {
     -webkit-box-shadow: 2px 5px 16px 0px #0B325E, -50px -50px 0px -30px rgba(11,50,94,0); 
     box-shadow: 2px 5px 16px 0px #0B325E, -50px -50px 0px -30px rgba(11,50,94,0);
 }
+
+@media(max-width: 768px) {
+    .site-footer .site-info {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .site-footer .custom-logo {
+        width: 120px;
+    }
+
+    #footer-menu {
+        flex-direction: column;
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+    #footer-menu .menu-item {
+        margin: .3rem 0;
+    }
+}
+

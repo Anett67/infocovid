@@ -1,3 +1,10 @@
 .wp-block-buttons .wp-block-button {
     margin: 10px 0;
 }
+
+@media(max-width: 768px) {
+    .wp-block-buttons .wp-block-button,
+    .wp-block-button__link {
+        width: 100%;
+    }
+}

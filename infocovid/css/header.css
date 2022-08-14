@@ -31,3 +31,25 @@ header.site-header {
 .menu .current-menu-item a {
     font-family: SourceSansProBold;
 }
+
+.menu-toggle {
+    background-color: #035689;
+    border-color: #035689;
+    color: #fff;
+    font-family: SourceSansProBold;
+    margin-left: auto;
+}
+
+#site-navigation.toggled .menu-toggle {
+    margin-bottom: 1rem;
+}
+
+#site-navigation.toggled .menu-item a {
+    text-align: right;
+}
+
+@media(max-width: 599px) {
+    .site-header .site-branding {
+        margin-bottom: auto;
+    }
+}
