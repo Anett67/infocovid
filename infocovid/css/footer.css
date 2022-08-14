@@ -21,6 +21,7 @@ footer.site-footer {
 
     #footer-menu .menu-item {
         margin: .3rem 0;
+        text-align: center;
     }
 }
 
