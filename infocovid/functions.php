@@ -141,13 +141,7 @@ add_action( 'widgets_init', 'infocovid_widgets_init' );
 function infocovid_scripts() {
 	wp_enqueue_style( 'infocovid-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'font-face', get_template_directory_uri() . '/css/font-face.css' );
-	wp_enqueue_style( 'base', get_template_directory_uri() . '/css/base.css' );
-	wp_enqueue_style( 'header', get_template_directory_uri() . '/css/header.css' );
-	wp_enqueue_style( 'footer', get_template_directory_uri() . '/css/footer.css' );
-	wp_enqueue_style( 'layout', get_template_directory_uri() . '/css/layout.css' );
-	wp_enqueue_style( 'typography', get_template_directory_uri() . '/css/typography.css' );
-	wp_enqueue_style( 'button', get_template_directory_uri() . '/css/button.css' );
-	wp_enqueue_style( 'form', get_template_directory_uri() . '/css/form.css' );
+	wp_enqueue_style( 'main', get_template_directory_uri() . '/css/main.css' );
 
 	wp_style_add_data( 'infocovid-style', 'rtl', 'replace' );
 
